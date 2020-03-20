@@ -2,3 +2,7 @@
 .card-body{
   font-family:monospace ;
 }
+
+body{
+  background:-webkit-linear-gradient(top, #FFFFFF, #FFCCCC,#FFB7DD,#FFA488, #ffbb66);
+}

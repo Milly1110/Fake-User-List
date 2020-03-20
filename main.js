@@ -122,7 +122,7 @@
   }
 
   // add pagination
-  const pagination = document.querySelector('.pagination')
+  const pagination = document.querySelector('.pagination-list')
   const ItemPerPage = 20
   function getTotalPage(data) {
     let totalPage = Math.ceil(data.length / ItemPerPage) || 1
@@ -131,7 +131,8 @@
       pageItemContent += `      
         <li class="page-item">
           <a class="page-link" href="javascript:;" data-page="${i + 1}">${i + 1}</a>
-        </li>`
+        </li>
+        `
     }
     pagination.innerHTML = pageItemContent
   }

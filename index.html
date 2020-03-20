@@ -13,6 +13,7 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
   <title>A31 [選修] 手刻社群名單</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -32,7 +33,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="favorite.html"><i class="fas fa-heart" style="color:#FF8282"></i> favorite</a>
+          <a class="nav-link" href="favorite.html"><i class="fas fa-heart" style="color:#FF8888"></i> favorite</a>
         </li>
       </ul>
     </div>
@@ -42,13 +43,13 @@
   <div class="container mt-5">
     <!-- search bar -->
     <div class="row" id="search-bar">
-      <!--         <div class="col-auto mr-auto"> -->
+
       <form id="search" class="form-inline">
         <label class="sr-only" for"inlineFormInputName2">Name</label>
         <input type="text" class="form-control mb-2 mr-sm-2" id="search-input" placeholder="search name...">
         <button type="submit" class="btn btn-primary mb-2">Search</button>
       </form>
-      <!--         </div> -->
+
     </div>
 
     <!-- data-panel -->
@@ -59,12 +60,12 @@
 
   <!-- 載入Bootstrap 提供的 Pagination 元件 -->
   <nav aria-label="Page navigation">
-    <ul class="pagination justify-content-end">
-      <li class="page-item disabled">
+    <ul class="pagination justify-content-center">
+      <li class="page-item-previous">
         <a class="page-link" href="#" tabindex="-1">Previous</a>
       </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+      <li class="pagination-list page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item-next"><a class="page-link" href="#">Next</a></li>
     </ul>
   </nav>
 
@@ -128,7 +129,7 @@
     crossorigin="anonymous"></script>
 
   <script src="main.js"></script>
-  <script src="style.css"></script>
+
 </body>
 
 </html>
